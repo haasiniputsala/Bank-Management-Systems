@@ -9,9 +9,8 @@ using namespace std;
 // Since it's OOP we create a class called bank
 class bank {
     private:
-        int pin;
         float balance;
-        string id,pass,name,fname,address,phone;
+        string id,pass,name,fname,address,phone,pin;
     public:
         void menu();
         void bank_management();
@@ -20,8 +19,17 @@ class bank {
         void existing_user();
         void withdraw();
         void deposit();
+        void transfer();
+        void payment();
+        void search();
+        void edit();
+        void udelete();
+        void show_records();
+        void show_payments();
+        void user_balance();
+        void atm_withdraw();
+        void atm_acctdetails();
 };
-
 // Defining member function menu under bank
 void bank::menu() {
     p: // Labelled p as a repeat function till exit is clicked on
@@ -90,3 +98,5 @@ void bank::menu() {
     getch(); // Will take in any character from the user
     goto p;  // To repeat again from a specific point
 }
+
+
