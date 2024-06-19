@@ -4,8 +4,8 @@ Bank Management Systems are complex software solutions designed to handle the va
 The project focuses on implementing a basic Bank Management System with features like account login, secure transactions, and ATM management along with user interactions. 
 In this C++ project, I gained insights into the core functionalities that drive banking operations, understand the importance of data security, and see how OOP principles facilitate the creation of scalable and maintainable software.
 
-#Features
-*Bank Management *
+# Features
+*Bank Management*
   1. New User
   2. Existing User
   3. Deposits
