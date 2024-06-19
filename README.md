@@ -5,7 +5,7 @@ The project focuses on implementing a basic Bank Management System with features
 In this C++ project, I gained insights into the core functionalities that drive banking operations, understand the importance of data security, and see how OOP principles facilitate the creation of scalable and maintainable software.
 
 # Features
-*Bank Management*
+# *Bank Management*
   1. New User
   2. Existing User
   3. Deposits
@@ -18,7 +18,7 @@ In this C++ project, I gained insights into the core functionalities that drive 
   10. Show all records
   11. Payments for all Records
 
-*ATM Management*
+# *ATM Management*
   1. User Login & Check Balance
   2. Withdraw Amount
   3. Account Details
